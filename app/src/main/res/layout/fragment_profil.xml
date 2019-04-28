@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    tools:context=".ProfilFragment">
+
+    <ImageView
+        android:id="@+id/profil_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/nav_profile_picture"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Semra KARADOĞAN"
+        android:layout_below="@+id/profil_picture"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Uyumayı seviyor,yemek yemeyi de çok sever."
+        android:layout_below="@+id/text1"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Gezdiği iller:Ankara,İstanbul,Kütahya .."
+        android:layout_below="@+id/text2"/>
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/instagram_ic"
+        android:layout_below="@+id/text3"/>
+</RelativeLayout>

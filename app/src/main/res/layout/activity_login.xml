@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_login_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/login_eposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/eposta"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorWhite"
+        android:textColorHint="@color/colorGray"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/login_sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sifre"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorWhite"
+        android:textColorHint="@color/colorGray"
+        android:layout_below="@+id/login_eposta"
+        />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_sifre"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:text="@string/giris_yap"
+        android:textColor="@color/colorWhite"/>
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="15dp"
+        android:padding="16dp"
+        android:text="@string/kayit_ol"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

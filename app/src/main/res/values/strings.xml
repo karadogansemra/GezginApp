@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GezginApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gezgin Uygulaması</string>
+    <string name="nav_header_subtitle">Bir gezginin kayıtları</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="eposta">Email Giriniz</string>
+    <string name="sifre">Şifre Giriniz</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="giris_yap">Giriş Yap</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
